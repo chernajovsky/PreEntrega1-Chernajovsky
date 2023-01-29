@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Calculator</title>
+  
+    
+</head>
+
+<body>
+    
+    <div class="calculator">
+        <h1>Calculador de préstamos</h1>
+  
+        <p>Monto (en pesos)     :
+            <input id="monto" type="number" 
+            onchange="Calculate()">
+        </p>
+  
+        <p>Tasa de interés (%)  :
+            <input id="tasa" type="number" 
+            onchange="Calculate()">
+        </p>
+  
+        <p>Cuotas mensuales ($) :
+            <input id="cuotas" type="number" 
+            onchange="Calculate()">
+        </p>
+  
+        <h2 id="total"></h2>
+    </div>
+
+    <script src="Javascript/miarchivo.js"></script>
+</body>
+</html>
